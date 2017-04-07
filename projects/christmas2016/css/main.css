@@ -1,0 +1,16 @@
+/* Colors*/
+
+body, html {
+  height: 100%;
+  font-family: 'Merriweather', serif;
+}
+
+.container {
+	width: 90%;
+	max-width: 640px;
+	margin: 0 auto;
+}
+
+h1.page-title {
+	font-size: 5rem;
+}
