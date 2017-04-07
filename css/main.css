@@ -1,11 +1,8 @@
-html, body{
-	
-}
 body {
 	background: -moz-linear-gradient(180deg, #39F 50%, #222 50%); /* FF3.6+ */
 	background: -webkit-linear-gradient(180deg, #39F 50%, #222 50%); /* Chrome10+, Safari5.1+ */
 	background: -ms-linear-gradient(180deg, #39F 50%, #222 50%); /* IE10+ */
-	background: linear-gradient180deg, #39F 50%, #222 50%); /* W3C */
+	background: linear-gradient(180deg, #39F 50%, #222 50%); /* W3C */
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 

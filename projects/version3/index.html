@@ -1,96 +1,100 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Nathan Sokol, UX Design, UI Design, Website, Portfolio">
-	<title>Nathan Sokol</title>
-
-	<link rel="stylesheet" type="text/css" href="css/reset.css" />
-	<link rel="stylesheet" type="text/css" href="css/main.css" />
-	<link rel="stylesheet" type="text/css" href="css/responsive.css" />
-
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-
-	<!--Fonts-->
-	<link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,700,300italic,400italic' rel='stylesheet' type='text/css'>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Nathan Sokol, UX Design, UI Design, Website, Portfolio">
+    <title>Nathan Sokol</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <link rel="stylesheet" type="text/css" href="css/responsive.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,700,300italic,400italic' rel='stylesheet' type='text/css'>
 </head>
+
 <body>
-	<header>
-		<div id="headerLogo" class="vAlign"></div>
-		<nav class="vAlign">
-			<ul>
-				<li>ABOUT</li>
-				<li>CODE</li>
-				<li>DESIGN</li>
-				<li>CONTACT</li>
-			</ul>
-		</nav>
-	</header>
-
-	<section>
-		<article id="aboutArticle" class="activeArticle">
-			<img id="aboutImage" src="images/holder.jpg"></img>
-			<div id="aboutTextContainer" class="innerPage">
-				<h1>Hello World.</h1>
-				<p>
-					My name is <span class="blue">Nathan Sokol</span>. I'm a professional techie living in the b-e-a-utiful <span class="orange">Austin, TX</span>. When I'm not working or at home developing, I like spending time <span class="green">outdoors</span>, <span class="aqua">fishing</span>, <span class="purple">disc golf</span> or hanging out with friends at the river.
-				</p>
-				<p>
-					With a love for new gadgets and the future of the <span class="yellow">mobile world</span> taking shape, keeping up to date with <span class="red">emerging technology</span> and sticking to key <span class="orange">design principles</span> are critical. 
-				</p>
-			</div>
-			<div id="aboutReviewContainer">
-				<div class="aboutReview">
-					<div class="aboutReviewTextContainer">
-						<p>
-							"Nathan was assigned several tasks during his Internship at Hewlett Packard related to code refactoring, software configuration management, database migration, and build automation. Not only did he exceed expectations of what he was asked to deliver, he exemplified organizational agility and how to solve complex problems in an Enterprise Application environment. The hands-on experience acquired prior to graduating and his ability to work in a high-paced environment puts him at a level over and above his peers. For that reason, I would recommend him for any future opportunity or endeavor"
-						</p>
-						<div class="aboutReviewer">Michael Seiden - HP<br />Software Development Engineer</div>
-					</div>
-				</div>
-				<div class="aboutReview">
-					<div class="aboutReviewTextContainer">
-						<p>
-							"Nathan was assigned several tasks during his Internship at Hewlett Packard related to code refactoring, software configuration management, database migration, and build automation. Not only did he exceed expectations of what he was asked to deliver, he exemplified organizational agility and how to solve complex problems in an Enterprise Application environment. The hands-on experience acquired prior to graduating and his ability to work in a high-paced environment puts him at a level over and above his peers. For that reason, I would recommend him for any future opportunity or endeavor"
-						</p>
-						<div class="aboutReviewer">Michael Seiden - HP<br />Software Development Engineer</div>
-					</div>
-				</div>
-				<div class="aboutReview">
-					<div class="aboutReviewTextContainer">
-						<p>
-							"Nathan was assigned several tasks during his Internship at Hewlett Packard related to code refactoring, software configuration management, database migration, and build automation. Not only did he exceed expectations of what he was asked to deliver, he exemplified organizational agility and how to solve complex problems in an Enterprise Application environment. The hands-on experience acquired prior to graduating and his ability to work in a high-paced environment puts him at a level over and above his peers. For that reason, I would recommend him for any future opportunity or endeavor"
-						</p>
-						<div class="aboutReviewer">Michael Seiden - HP<br />Software Development Engineer</div>
-					</div>
-				</div>
-			</div>
-		</article>
-		<article id="codeArticle">
-			<h1>HelloWorld</h1>
-		</article>
-		<article id="designArticle">
-			<h1>Design</h1>
-		</article>
-		<article id="contactArticle">
-			<h1>contact</h1>
-		</article>
-	</section>
-
-<!-- Main JS File -->
-<script src="js/main.js"></script>
-<!-- GoogleAnalytics-->
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-  ga('create', 'UA-60946852-1', 'auto');
-  ga('send', 'pageview');
-</script>
-
+    <header id="site-header">
+        <div id="site-logo" onClick="changePage('home-page')"></div>
+        <nav>
+            <ul>
+                <li onClick="changePage('code-page')">CODE</li>
+                <li onClick="changePage('design-page')">DESIGN</li>
+                <li onClick="changePage('contact-page')">CONTACT</li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home-page" class="page active">
+        <img id="aboutImage" src="images/holder.jpg"></img>
+        <div id="aboutTextContainer" class="innerPage">
+            <h1>Hello World.</h1>
+            <p>
+                My name is <span class="blue">Nathan Sokol</span>. I'm a professional techie living in the b-e-a-utiful <span class="orange">Austin, TX</span>. When I'm not working or at home developing, I like spending time <span class="green">outdoors</span>, <span class="aqua">fishing</span>,
+                <span class="purple">disc golf</span> or hanging out with friends at the river.
+            </p>
+            <p>
+                With a love for new gadgets and the future of the <span class="yellow">mobile world</span> taking shape, keeping up to date with <span class="red">emerging technology</span> and sticking to key <span class="orange">design principles</span> are critical.
+            </p>
+        </div>
+        <div id="aboutReviewContainer">
+            <div class="aboutReview">
+                <div class="aboutReviewTextContainer">
+                    <p>
+                        "Nathan developed and supported the Squad Health Check app and was the lead developer on the Cloud Engineering InfoHub. He designed and implemented the needed features based on stakeholder feedback. Nathan cross-trained others on the team to enable them to improve their development skills and deliver projects they were working on."
+                    </p>
+                    <div class="aboutReviewer">Jan Acosta - IBM
+                        <br />DevOps Transformation Manager</div>
+                </div>
+            </div>
+            <div class="aboutReview">
+                <div class="aboutReviewTextContainer">
+                    <p>
+                        "Nathan was assigned several tasks during his Internship at Hewlett Packard related to code refactoring, software configuration management, database migration, and build automation. Not only did he exceed expectations of what he was asked to deliver, he exemplified organizational agility and how to solve complex problems in an Enterprise Application environment. The hands-on experience acquired prior to graduating and his ability to work in a high-paced environment puts him at a level over and above his peers. For that reason, I would recommend him for any future opportunity or endeavor"
+                    </p>
+                    <div class="aboutReviewer">Michael Seiden - HP
+                        <br />Software Development Engineer</div>
+                </div>
+            </div>
+            <div class="aboutReview">
+                <div class="aboutReviewTextContainer">
+                    <p>
+                        "Nathan was assigned several tasks during his Internship at Hewlett Packard related to code refactoring, software configuration management, database migration, and build automation. Not only did he exceed expectations of what he was asked to deliver, he exemplified organizational agility and how to solve complex problems in an Enterprise Application environment. The hands-on experience acquired prior to graduating and his ability to work in a high-paced environment puts him at a level over and above his peers. For that reason, I would recommend him for any future opportunity or endeavor"
+                    </p>
+                    <div class="aboutReviewer">Michael Seiden - HP
+                        <br />Software Development Engineer</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="code-page" class="page">
+        <h1>HelloWorld</h1>
+    </section>
+    <section id="design-page" class="page">
+        <h1>Design</h1>
+    </section>
+    <section id="contact-page" class="page">
+        <h1>contact</h1>
+    </section>
+    <!-- Main JS File -->
+    <script src="js/main.js"></script>
+    <!-- GoogleAnalytics-->
+    <script>
+    (function(i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function() {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'UA-60946852-1', 'auto');
+    ga('send', 'pageview');
+    </script>
 </body>
+
 </html>
