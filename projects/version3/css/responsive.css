@@ -44,7 +44,7 @@ and (orientation : portrait) {
 @media only screen 
 and (max-width : 1600px) {
 /* Styles */
-.aboutReviewTextContainer {
+.about-review-text-container {
   margin: 1.5em;
   padding: 1.5em;
 }
@@ -55,7 +55,7 @@ and (max-width : 1600px) {
 @media only screen 
 and (max-width : 1440px) {
 /* Styles */
-.aboutReviewTextContainer {
+.about-review-text-container {
   margin: 1em;
   padding: 1em;
 }
@@ -66,7 +66,7 @@ and (max-width : 1440px) {
 @media only screen 
 and (max-width : 1280px) {
 /* Styles */
-.aboutReviewTextContainer {
+.about-review-text-container {
   font-size: 0.95em;
 }
 
@@ -77,7 +77,7 @@ and (max-width : 1280px) {
 @media only screen 
 and (max-width : 1140px) {
 /* Styles */
-.aboutReviewTextContainer {
+.about-review-text-container {
   font-size: 0.9em;
 }
 
@@ -87,11 +87,11 @@ and (max-width : 1140px) {
 @media only screen 
 and (max-width : 1024px) {
 /* Styles */
-.aboutReview {
+.about-review {
   width: 100%;
   margin: 0 auto;
 }
-.aboutReviewTextContainer {
+.about-review-text-container {
   font-size: 1em;
   margin: 2em;
   padding: 2em;
@@ -103,7 +103,7 @@ and (max-width : 1024px) {
 @media only screen 
 and (max-width : 800px) {
 /* Styles */
-#aboutImage {
+.about-image {
 	max-width: 90%;
 }
 
@@ -123,7 +123,7 @@ nav ul li {
 #aboutTextContainer p {
 	line-height: 1.5em;
 }
-.aboutReviewTextContainer {
+.about-review-text-container {
 	margin: 0 0 2em 0;
 }
 
@@ -152,11 +152,11 @@ section {
 	color: #656565;
 	margin-bottom: 2em;
 }
-#aboutReviewContainer {
+#about-review-container {
 	margin-top: 3em;
 	padding: 2em 5%;
 }
-.aboutReviewTextContainer {
+.about-review-text-container {
 	padding: 1em;
 	font-size: 0.85em;
 }

@@ -172,11 +172,10 @@ section.page.active {
 
 /*About*/
 
-#aboutImage {
+.about-image {
   display: block;
   max-width: 100%;
   height: auto;
-  background-color: #CCC;
   margin: 0 auto;
 }
 
@@ -198,7 +197,7 @@ section.page.active {
   color: #FAFAFA;
 }
 
-#aboutReviewContainer {
+#about-review-container {
   width: 90%;
   padding: 4em 5%;
   margin: 0 auto;
@@ -206,19 +205,20 @@ section.page.active {
   margin-top: 5em;
 }
 
-.aboutReviewTextContainer {
+.about-review-text-container {
   margin: 2em;
   padding: 2em;
   background-color: #fff;
   box-shadow: 5px 5px 5px#ccc;
 }
 
-.aboutReview {
+.about-review {
   width: 33%;
   display: inline-block;
+  vertical-align: top;
 }
 
-.aboutReview p {
+.about-review p {
   font-size: 1.1em;
   line-height: 1.7em;
   font-weight: 200;
@@ -226,8 +226,9 @@ section.page.active {
   color: #656565;
 }
 
-.aboutReviewer {
+.about-reviewer {
   padding-top: 1em;
+  line-height: 1.2em;
   font-size: 1em;
   color: #555;
 }
