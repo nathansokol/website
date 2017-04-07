@@ -236,8 +236,8 @@ section.page.active {
 
 /*Global CSS*/
 
-.innerPage {
-  max-width: 1120px;
+.inner-container {
+  max-width: 1100px;
   width: 90%;
   margin: 0 auto;
 }
@@ -245,3 +245,36 @@ section.page.active {
 section {
   padding-top: 8em;
 }
+
+
+/* CODE */
+.code-project {
+  display: flex;
+  align-items: center;
+}
+
+.code-project-desc {
+  flex: 3;
+}
+
+.code-project-desc h2 {
+  padding-bottom: 0.5em;
+  font-size: 3em;
+}
+
+.code-project-image {
+  flex: 1;
+}
+
+.code-project-image img {
+  max-width: 200px;
+  display: block;
+  margin: 0 auto;
+}
+.code-project p {
+  line-height: 1.85em;
+  font-size: 1.2em;
+  color: #656565;
+  margin-bottom: 2em;
+}
+
