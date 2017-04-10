@@ -1,0 +1,231 @@
+body {
+	background: -moz-linear-gradient(180deg, #39F 50%, #222 50%); /* FF3.6+ */
+	background: -webkit-linear-gradient(180deg, #39F 50%, #222 50%); /* Chrome10+, Safari5.1+ */
+	background: -ms-linear-gradient(180deg, #39F 50%, #222 50%); /* IE10+ */
+	background: linear-gradient(180deg, #39F 50%, #222 50%); /* W3C */
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.bold { font-weight: 900; }
+.underline { text-decoration: underline;}
+
+.blueText { color: #39F; }
+.greyText { color: #222; }
+.whiteText { color: #FFF; }
+
+.uiuxHeader {
+	width: 100%;
+	text-align: center;
+	font-size: 4em;
+}
+.uiuxHeader h1 {
+	display: inline-block;
+	font-size: 2em;
+	font-weight: 900;
+	padding-top: 0.2em;
+}
+.uiuxHeader h1.blueText {
+	margin-left: 0.3em;
+}
+.uiuxHeader h1.greyText {
+	margin-left: 0.1em;
+}
+.developerHeader{
+	width: 100%;
+	text-align: center;
+	font-size: 2em;
+}
+.developerHeader p {
+	color:#FFF;
+	font-size: 0.5em;
+	margin-left: 5%;
+}
+.pageContainer {
+	display: inline-block;
+	width: 50%;
+	height: 100%;
+}
+.pageContainerLeft {
+	float: left;
+	color: #39F;
+	text-align: right;
+}
+.pageContainerRight {
+	float: right;
+	color: #222;
+}
+.pageContent {
+	padding: 0 2.5em;
+	margin: 2.5em 0;
+}
+.leftSideContent {
+	float: right;
+	text-align: left;
+	line-height: 1.4em;
+}
+.rightSideContent {
+	line-height: 1.4em;
+}
+.introTitle {
+	text-align: center;
+	color: #222;
+	margin-bottom: 2em;
+}
+article.leftSideContent.pageContent p {
+	line-height: 1.4em;
+}
+.experienceTitle {
+	text-align: center;
+	font-weight: 900;
+	color: #39F;
+}
+.experienceJob {
+	margin-top: 2em;
+}
+.jobTitle {
+	color: #FFF;
+	font-size: 1.1em;
+}
+.jobTitle:hover {
+	color: #EEE;
+	cursor: pointer;
+}
+.jobDescription {
+	display: none;
+}
+.jobDescription p{
+	font-size: 0.9em;
+	line-height: 1.3em;
+}
+.workshopTitle {
+	text-align: center;
+	margin-bottom: 1em;
+	color: #FFF;
+	font-size: 1.1em;
+	margin-bottom: 2em;
+	padding-top: 1em;
+}
+.designTitle {
+	text-align: center;
+	color: #222;
+	font-size: 1.5em;
+	padding-top: 1em;
+}
+.workshopIcon {
+	width: 250px;
+	display: block;
+	margin: 0 auto;
+}
+.workshopDesigns {
+	padding-top: 2em;
+}
+.workshopDesignsContainer {
+	text-align:center;
+	padding-top: 1em;
+}
+.workshopDesignsContainer a {
+	color:#FFF !important;
+	padding: 0 1em;
+}
+.workshopProjectContainer:hover {
+	cursor: pointer;
+}
+.ui_tech_image {
+	width: 80%;
+	margin: 1em auto 0.6em auto;
+}
+.keepLeftPlease {
+	clear: left;
+}
+.keepRightPlease {
+	clear: right;
+}
+.workshopProjectTitle {
+	padding-top: 1em;
+	color: #FFF;
+	font-weight: 900;
+}
+.workshopProjectTitle a {
+	color: #FFF;
+}
+.workshopProjectTitle a:visited {
+	color: #FFF;
+}
+#workshopMoreExamples {
+	color: #FFF;
+	text-align: center;
+	padding: 2em 0;
+}
+.workshopProjectContainer {
+	height: 150px;
+}
+.workshopProjectContainer h1 {
+	padding-top: 15%;
+	text-align: center;
+	margin-top: 1em;
+	color: #FFF;
+}
+.workshopProject2Title {
+	float:left;
+	width: 50%;
+}
+.workshopProject4Title {
+	float:left;
+	width: 50%;
+}
+#workshopProject1 {
+	display: inline-block;
+	background: url('../images/dg.png');
+	background-size: cover;
+	width: 50%;
+	height: 150px;
+	float:left;
+}
+#workshopProject2 {
+	display: inline-block;
+	float:right;
+	background: url('../images/qt2.png');
+	background-size: cover;
+	width: 50%;
+	height: 150px;
+}
+#workshopProject3 {
+	display: inline-block;
+	float:left;
+	background: url('../images/mtp.png');
+	background-size: cover;
+	background-position: center;
+	width: 50%;
+	height: 150px;
+}
+#workshopProject4 {
+	display: inline-block;
+	float:right;
+	background: url('../images/halfmarathon.jpg');
+	background-size: cover;
+	width: 50%;
+	height: 150px;
+}
+.socialMediaTitle {
+	text-align: center;
+	margin-bottom: 1em;
+	color: #222;
+	padding-top: 4em;
+	font-size: 1.5em;
+}
+.socialMediaRow {
+	width: 100%;
+	text-align: center;
+}
+.socialMediaRow img{
+	display:inline-block;
+	padding: 0.3em 0.8em;
+}
+.footer {
+	clear: both;
+	width: 100%;
+	height: 2em;
+	padding-top: 3em;
+	text-align:center;
+	color: white;
+}

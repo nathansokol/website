@@ -3,65 +3,6 @@
 and (min-width : 320px) 
 and (max-width : 640px) {
 /* Styles */
-body {
-	background: none;
-	background-color: #39F;
-	
-}
-
-header {
-	margin-left: -20px;
-}
-
-.uiuxHeader h1 {
-	font-size: 1em;
-	color: #222;
-	padding-top: 0.2em;
-}
-.developerHeader{
-	font-size: 1.5em;
-	margin-bottom: 1em;
-}
-
-.pageContainer {
-	display: block;
-	width: 100%;
-}
-.pageContainerLeft {
-	background-color: #222;
-}
-.pageContainerRight {
-
-}
-.pageContent {
-	margin: 1.5em 0;
-	font-size: 0.8em;
-}
-.introTitle {
-	text-align: center;
-	color: #FFF;
-	margin-bottom: 1em;
-}
-.experienceTitle {
-	text-align: center;
-	font-weight: 900;
-	color: #222;
-	margin-bottom: -1em;
-}
-.workshopTitle {
-	padding-top: 0.5em;
-	text-decoration: none;
-	font-size: 1em;
-	padding-bottom: 0;
-}
-
-.workshopAbout {
-	font-size: 1.05em;
-}
-
-.socialMediaTitle {
-	padding-top: 1em;
-}
 }
 
 /* Smartphones (landscape) ----------- */
@@ -99,25 +40,137 @@ and (orientation : portrait) {
 /* Styles */
 }
 
-/* Desktops and laptops ----------- */
+/* < 1600 ----------- */
 @media only screen 
-and (min-width : 640px) {
+and (max-width : 1600px) {
 /* Styles */
-.jobDescription {
-	display: block;
-}
-.developerHeader p {
-	margin-left: 2em;
-}
-.pageContent {
-	max-width: 30em;
-}
+.about-review-text-container {
+  margin: 1.5em;
+  padding: 1.5em;
 }
 
-/* Large screens ----------- */
+}
+
+/* 1440 ----------- */
 @media only screen 
-and (min-width : 1824px) {
+and (max-width : 1440px) {
 /* Styles */
+.about-review-text-container {
+  margin: 1em;
+  padding: 1em;
+}
+
+}
+
+/* 1280 ----------- */
+@media only screen 
+and (max-width : 1280px) {
+/* Styles */
+.about-review-text-container {
+  font-size: 0.95em;
+}
+
+}
+
+
+/* 1140 ----------- */
+@media only screen 
+and (max-width : 1140px) {
+/* Styles */
+.about-review-text-container {
+  font-size: 0.9em;
+}
+
+}
+
+/* 1024 ----------- */
+@media only screen 
+and (max-width : 1024px) {
+/* Styles */
+.about-review {
+  width: 100%;
+  margin: 0 auto;
+}
+.about-review-text-container {
+  font-size: 1em;
+  margin: 2em;
+  padding: 2em;
+}
+
+}
+
+/* 800px ----------- */
+@media only screen 
+and (max-width : 800px) {
+/* Styles */
+.about-image {
+	max-width: 90%;
+}
+
+}
+
+/* 640px ----------- */
+@media only screen 
+and (max-width : 640px) {
+/* Styles */
+nav ul { padding-right: 0.5em; }
+nav ul li {
+	margin: 2px 0.5em 0;
+}
+#aboutTextContainer h1 {
+	font-size: 3.5em;
+}
+#aboutTextContainer p {
+	line-height: 1.5em;
+}
+.about-review-text-container {
+	margin: 0 0 2em 0;
+}
+
+}
+
+/* 420px ----------- */
+@media only screen 
+and (max-width : 420px) {
+/* Styles */
+nav ul { padding-right: 0.25em; }
+nav ul li {
+	margin: 2px 0.25em 0;
+}
+section {
+	padding-top: 6em;
+	padding-top: calc(4em + 5%);
+}
+#aboutTextContainer {
+	padding-top: 2em;
+}
+#aboutTextContainer h1 {
+	font-size: 2.5em;
+}
+#aboutTextContainer p {
+	font-size: 1em;
+	color: #656565;
+	margin-bottom: 2em;
+}
+#about-review-container {
+	margin-top: 3em;
+	padding: 2em 5%;
+}
+.about-review-text-container {
+	padding: 1em;
+	font-size: 0.85em;
+}
+
+}
+
+/* 360px ----------- */
+@media only screen 
+and (max-width : 300px) {
+/* Styles */
+nav ul li {
+	font-size: 0.9em;
+}
+
 }
 
 /* iPhone 4 ----------- */
