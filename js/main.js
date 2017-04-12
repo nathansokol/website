@@ -20,10 +20,29 @@ $(window).scroll(function() {
     } else {
         $('header').removeClass('shrink-header');
     }
+
+    // var aboutLoc = document.getElementById('home-page').position().top;
+    var codeLoc = $('#code-page').position().top - 1;
+    var designLoc = $('#design-page').position().top - 1;
+
+    $('.nav-link').removeClass('active');
+
+    var scrollPos = $(document).scrollTop() + $('#site-header').height();
+
+    if (scrollPos < codeLoc) {
+        $('.nav-link.about').addClass('active');
+    }
+    else if (scrollPos >= codeLoc &&  scrollPos < designLoc) {
+        $('.nav-link.code').addClass('active');
+    }
+    else if (scrollPos >= designLoc) {
+        $('.nav-link.design').addClass('active');
+    }
 });
 
 // Navigation
 function changePage(target) {
-    $('section.page').removeClass('active');
-    $('#' + target).addClass('active');
+    $('html, body').animate({
+        scrollTop: $('#' + target).offset().top
+    }, 1000);
 };

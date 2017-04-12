@@ -156,12 +156,19 @@
   }
   /* Page changing */
   
-  section.page {
+  /*section.page {
     display: none;
   }
   
   section.page.active {
     display: block;
+  }*/
+
+  .nav-link {
+    border-bottom: 2px solid rgba(255,255,255,0);
+  }
+  .nav-link.active {
+    border-bottom: 2px solid #FFF;
   }
   /************************************************************
   ABOUT
@@ -228,6 +235,13 @@
     color: #555;
   }
   
+  .experience-title {
+    text-align: center;
+    font-size: 4em;
+    margin-bottom: 0.75em;
+    color: #FAFAFA;
+  }
+  
   #experience {
     color: #555;
     padding: 4rem 0;
@@ -239,7 +253,7 @@
     color: #656565;
     margin-bottom: 2em;
   }
-
+  
   .experience-job .job-title {
     font-size: 2em;
     padding-bottom: 0.5em;
@@ -253,9 +267,18 @@
     width: 90%;
     margin: 0 auto;
   }
+
   
-  section {
+  #home-page {
     padding-top: 8em;
+  }
+
+  #code-page {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  #design-page {
+    padding-top: 4rem;
   }
   
   .flexbox {
@@ -283,6 +306,10 @@
   CODE
  ***********************************************************/
   
+#code-page {
+  background-color: #111;
+}
+
   .code-project {
     display: flex;
     align-items: center;
@@ -336,18 +363,20 @@ DESIGN
   }
   
   .design-section {
-    background-color: #FFF;
+    background-color: #2d2d2d;
     padding: 1em;
     margin-bottom: 2rem;
+    width: 90%;
+    margin: 0 auto;
   }
   
-  #design-page h1 {
-    font-size: 3rem;
+  #design-page h2 {
+    font-size: 2rem;
     padding-bottom: 0.5em;
     padding-top: 1em;
   }
   
-  #design-page h1:first-of-type {
+  #design-page h2:first-of-type {
     padding-top: 0;
   }
   
