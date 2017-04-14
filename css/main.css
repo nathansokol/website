@@ -185,14 +185,14 @@
     padding-top: 4em;
   }
   
-  #aboutTextContainer p {
+  p {
     line-height: 1.85em;
     font-size: 1.2em;
     color: #656565;
     margin-bottom: 2em;
   }
   
-  #aboutTextContainer h1 {
+  h1.section-title {
     text-align: center;
     font-size: 4em;
     margin-bottom: 0.75em;
@@ -226,6 +226,7 @@
     font-weight: 200;
     font-style: italic;
     color: #656565;
+    margin-bottom: 0;
   }
   
   .about-reviewer {
@@ -235,29 +236,23 @@
     color: #555;
   }
   
-  .experience-title {
+  /*.experience-title {
     text-align: center;
     font-size: 4em;
     margin-bottom: 0.75em;
     color: #FAFAFA;
-  }
+  }*/
   
   #experience {
     color: #555;
     padding: 4rem 0;
   }
   
-  .experience-job p {
-    line-height: 1.85em;
-    font-size: 1.2em;
-    color: #656565;
-    margin-bottom: 2em;
-  }
-  
   .experience-job .job-title {
     font-size: 2em;
     padding-bottom: 0.5em;
   }
+
   /************************************************************
   GLOBAL
  ***********************************************************/
@@ -321,7 +316,7 @@
   
   .code-project-desc h2 {
     padding-bottom: 0.5em;
-    font-size: 3em;
+    font-size: 2.5em;
   }
   
   .code-project-image {
@@ -332,13 +327,6 @@
     max-width: 200px;
     display: block;
     margin: 0 auto;
-  }
-  
-  .code-project p {
-    line-height: 1.85em;
-    font-size: 1.2em;
-    color: #656565;
-    margin-bottom: 2em;
   }
   
   .code-link {
@@ -378,11 +366,4 @@ DESIGN
   
   #design-page h2:first-of-type {
     padding-top: 0;
-  }
-  
-  #design-page p {
-    line-height: 1.85em;
-    font-size: 1.2em;
-    color: #656565;
-    margin-bottom: 2em;
   }
