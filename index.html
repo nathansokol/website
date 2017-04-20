@@ -17,17 +17,16 @@
 
 <body>
     <header id="site-header">
-        <div id="site-logo" onClick="changePage('home-page')"></div>
+        <div id="site-logo" onClick="changePage('about')"></div>
         <nav>
             <ul>
-                <li onClick="changePage('home-page')" class="nav-link about">ABOUT</li>
-                <li onClick="changePage('code-page')" class="nav-link code">PROJECTS</li>
-                <li onClick="changePage('design-page')" class="nav-link design">DESIGN</li>
-                <!--<li onClick="changePage('contact-page')">CONTACT</li>-->
+                <li onClick="changePage('about')" class="nav-link about active">ABOUT</li>
+                <li onClick="changePage('projects')" class="nav-link projects">PROJECTS</li>
+                <li onClick="changePage('design')" class="nav-link design">DESIGN</li>
             </ul>
         </nav>
     </header>
-    <section id="home-page" class="page active">
+    <section id="about" class="page active">
         <img class="about-image" src="images/me.png"></img>
         <div id="aboutTextContainer" class="inner-container">
             <h1 class="section-title">Hello World.</h1>
@@ -118,7 +117,7 @@
             </div>
         </div>
     </section>
-    <section id="code-page" class="page">
+    <section id="projects" class="page">
         <div class="inner-container">
             <h1 class="section-title">Projects.</h1>
             <div class="code-project">
@@ -162,7 +161,7 @@
             </div>
         </div>
     </section>
-    <section id="design-page" class="page">
+    <section id="design" class="page">
         <div class="inner-container">
             <h1 class="section-title">Design.</h1>
             <h2 class="purple">Infohub</h2>

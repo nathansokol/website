@@ -154,19 +154,11 @@
     transition: border-bottom 0.3s;
     cursor: pointer;
   }
-  /* Page changing */
   
-  /*section.page {
-    display: none;
-  }
-  
-  section.page.active {
-    display: block;
-  }*/
-
   .nav-link {
-    border-bottom: 2px solid rgba(255,255,255,0);
+    border-bottom: 2px solid rgba(255, 255, 255, 0);
   }
+  
   .nav-link.active {
     border-bottom: 2px solid #FFF;
   }
@@ -183,20 +175,6 @@
   
   #aboutTextContainer {
     padding-top: 4em;
-  }
-  
-  p {
-    line-height: 1.85em;
-    font-size: 1.2em;
-    color: #656565;
-    margin-bottom: 2em;
-  }
-  
-  h1.section-title {
-    text-align: center;
-    font-size: 4em;
-    margin-bottom: 0.75em;
-    color: #FAFAFA;
   }
   
   #about-review-container {
@@ -235,7 +213,6 @@
     font-size: 1em;
     color: #555;
   }
-  
   /*.experience-title {
     text-align: center;
     font-size: 4em;
@@ -252,7 +229,6 @@
     font-size: 2em;
     padding-bottom: 0.5em;
   }
-
   /************************************************************
   GLOBAL
  ***********************************************************/
@@ -262,17 +238,17 @@
     width: 90%;
     margin: 0 auto;
   }
-
   
-  #home-page {
+  #about {
     padding-top: 8em;
   }
-
-  #code-page {
+  
+  #projects {
     padding-top: 4rem;
     padding-bottom: 4rem;
   }
-  #design-page {
+  
+  #design {
     padding-top: 4rem;
   }
   
@@ -297,14 +273,28 @@
   .flex-3 {
     flex: 3;
   }
+  
+  p {
+    line-height: 1.85em;
+    font-size: 1.2em;
+    color: #656565;
+    margin-bottom: 2em;
+  }
+  
+  h1.section-title {
+    text-align: center;
+    font-size: 4em;
+    margin-bottom: 0.75em;
+    color: #FAFAFA;
+  }
   /************************************************************
   CODE
  ***********************************************************/
   
-#code-page {
-  background-color: #111;
-}
-
+  #code-page {
+    background-color: #111;
+  }
+  
   .code-project {
     display: flex;
     align-items: center;
