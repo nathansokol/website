@@ -357,3 +357,9 @@ DESIGN
   #design-page h2:first-of-type {
     padding-top: 0;
   }
+  
+  
+  #design .job-title {
+  padding-top: 3rem;
+  }
+  
