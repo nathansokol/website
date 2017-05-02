@@ -27,8 +27,9 @@ $(window).scroll(function() {
 
 // Navigation
 function changePage(target) {
+    var siteHeader = $('#site-header').height();
     $('html, body').animate({
-        scrollTop: $('#' + target).offset().top
+        scrollTop: $('#' + target).offset().top - 36
     }, 1000);
 };
 
@@ -44,13 +45,17 @@ function toggleHeaderSize(_scrollPos) {
 function toggleNavLinks(_scrollPos) {
     var scrollPos = _scrollPos + $('#site-header').height();
 
+    var experienceLoc = $('#experience').position().top - 1;
     var codeLoc = $('#projects').position().top - 1;
     var designLoc = $('#design').position().top - 1;
 
     $('.nav-link').removeClass('active');
 
-    if (scrollPos < codeLoc) {
+    if (scrollPos < experienceLoc) {
         $('.nav-link.about').toggleClass('active');
+    } 
+    else if (scrollPos >= experienceLoc &&  scrollPos < codeLoc) {
+        $('.nav-link.experience').toggleClass('active');
     }
     else if (scrollPos >= codeLoc &&  scrollPos < designLoc) {
         $('.nav-link.projects').toggleClass('active');
