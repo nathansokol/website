@@ -22,6 +22,7 @@ h1 {
 
 .welcome {
   font-size: 5rem;
+  line-height: 5rem;
   text-align: center;
   color: #D4AF37;
 }
@@ -52,6 +53,7 @@ img.thumbnail {
 .row {
   display: flex;
   align-items: center;
+  padding: 0 1rem;
 }
 .left-side {
   flex: 2;
@@ -77,4 +79,35 @@ img.thumbnail {
   background: url('../images/hogwarts-2.jpg');
   background-size: cover;
   background-position: 50% 99%;
+}
+
+@media only screen and (max-width: 768px) {
+
+  .welcome,
+  .sign-off {
+    font-size: 3rem;
+    line-height: 3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .row {
+    flex-direction: column-reverse;
+  }
+  .thumbnail {
+    max-width: 200px;
+    margin-bottom: 2rem;
+  }
+
+  iframe {
+    margin-bottom: 2rem;
+  }
+
+  h1 {
+    text-align: center;
+  }
+  p {
+    text-align: center;
+  }
+
 }
